@@ -1,0 +1,24 @@
+24-May-2022 14:22:46.605 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/api-remote]
+24-May-2022 14:22:56.727 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/API-remote.war]
+24-May-2022 14:22:59.228 INFO [Finalizer] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [ch.qos.logback.core.status.WarnStatus]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [ch.qos.logback.core.status.WarnStatus]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1385)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1373)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1226)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1188)
+		at ch.qos.logback.classic.LoggerContext.noAppenderDefinedWarning(LoggerContext.java:186)
+		at ch.qos.logback.classic.Logger.callAppenders(Logger.java:264)
+		at ch.qos.logback.classic.Logger.buildLoggingEventAndAppend(Logger.java:421)
+		at ch.qos.logback.classic.Logger.filterAndLog_0_Or3Plus(Logger.java:383)
+		at ch.qos.logback.classic.Logger.log(Logger.java:765)
+		at org.apache.commons.logging.LogAdapter$Slf4jLocationAwareLog.debug(LogAdapter.java:468)
+		at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:411)
+		at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.finalize(PoolingHttpClientConnectionManager.java:207)
+		at java.base/java.lang.System$2.invokeFinalize(System.java:2125)
+		at java.base/java.lang.ref.Finalizer.runFinalizer(Finalizer.java:87)
+		at java.base/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:171)
+24-May-2022 14:22:59.729 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-May-2022 14:22:59.734 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/API-remote.war] has finished in [3,007] ms
+24-May-2022 14:23:09.737 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/api-remote.war]
+24-May-2022 14:23:10.608 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-May-2022 14:23:10.612 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/api-remote.war] has finished in [875] ms
