@@ -1116,3 +1116,264 @@ Caused by: org.xml.sax.SAXParseException: Premature end of file.
 00:04:00.571 [http-nio-8091-exec-34] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: ->
 00:04:00.656 [http-nio-8091-exec-34] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: Request performed successfully
 00:04:00.659 [http-nio-8091-exec-34] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: <-
+00:13:07.134 [http-nio-8091-exec-37] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: ->
+00:13:07.248 [http-nio-8091-exec-37] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: Request performed successfully
+00:13:07.250 [http-nio-8091-exec-37] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: <-
+00:13:15.982 [http-nio-8091-exec-41] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: ->
+00:13:16.069 [http-nio-8091-exec-41] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: Request performed successfully
+00:13:16.071 [http-nio-8091-exec-41] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: <-
+00:13:23.741 [http-nio-8091-exec-42] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: ->
+00:13:23.831 [http-nio-8091-exec-42] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: Request performed successfully
+00:13:23.833 [http-nio-8091-exec-42] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: <-
+17-Jun-2022 00:38:47.098 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+17-Jun-2022 00:38:47.135 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8091"]
+17-Jun-2022 00:38:47.185 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+17-Jun-2022 00:38:47.194 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-Jun-2022 00:38:47.688 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8091"]
+17-Jun-2022 00:38:47.711 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+17-Jun-2022 00:38:47.722 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8091"]
+17-Jun-2022 00:38:47.726 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Jun-2022 00:39:24.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.21
+17-Jun-2022 00:39:24.346 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 4 2019 20:19:36 UTC
+17-Jun-2022 00:39:24.346 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.21.0
+17-Jun-2022 00:39:24.346 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+17-Jun-2022 00:39:24.346 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            11.6.2
+17-Jun-2022 00:39:24.346 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+17-Jun-2022 00:39:24.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Applications/Android Studio.app/Contents/jre/Contents/Home
+17-Jun-2022 00:39:24.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.11+0-b60-7590822
+17-Jun-2022 00:39:24.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            JetBrains s.r.o.
+17-Jun-2022 00:39:24.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/rabiu/Desktop/apache-tomcat-9.0.21
+17-Jun-2022 00:39:24.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/rabiu/Desktop/apache-tomcat-9.0.21
+17-Jun-2022 00:39:24.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Jun-2022 00:39:24.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+17-Jun-2022 00:39:24.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Jun-2022 00:39:24.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/rabiu/Desktop/apache-tomcat-9.0.21/conf/logging.properties
+17-Jun-2022 00:39:24.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Jun-2022 00:39:24.361 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Jun-2022 00:39:24.361 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Jun-2022 00:39:24.361 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+17-Jun-2022 00:39:24.361 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Jun-2022 00:39:24.361 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/rabiu/Desktop/apache-tomcat-9.0.21
+17-Jun-2022 00:39:24.361 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/rabiu/Desktop/apache-tomcat-9.0.21
+17-Jun-2022 00:39:24.361 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/rabiu/Desktop/apache-tomcat-9.0.21/temp
+17-Jun-2022 00:39:24.361 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/rabiu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+17-Jun-2022 00:39:24.549 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8091"]
+17-Jun-2022 00:39:24.590 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Jun-2022 00:39:24.592 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [394] milliseconds
+17-Jun-2022 00:39:24.638 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Jun-2022 00:39:24.638 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.21]
+17-Jun-2022 00:39:24.653 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/api-remotes.war]
+17-Jun-2022 00:39:26.152 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jun-2022 00:39:26.189 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/api-remotes.war] has finished in [1,536] ms
+17-Jun-2022 00:39:26.192 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/api-remote.war]
+17-Jun-2022 00:39:27.381 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jun-2022 00:39:27.387 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/api-remote.war] has finished in [1,195] ms
+17-Jun-2022 00:39:27.389 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/api-remote-old.war]
+17-Jun-2022 00:39:27.580 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/api-remote-old.war] has finished in [191] ms
+17-Jun-2022 00:39:27.581 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/tomcat_remote_war]
+17-Jun-2022 00:39:27.994 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/tomcat_remote_war] has finished in [413] ms
+17-Jun-2022 00:39:27.994 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/API#remote]
+17-Jun-2022 00:39:28.211 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/API#remote] has finished in [216] ms
+17-Jun-2022 00:39:28.211 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/docs]
+17-Jun-2022 00:39:28.224 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/docs] has finished in [13] ms
+17-Jun-2022 00:39:28.224 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/API-remote]
+17-Jun-2022 00:39:29.091 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jun-2022 00:39:29.095 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/API-remote] has finished in [871] ms
+17-Jun-2022 00:39:29.095 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/manager]
+17-Jun-2022 00:39:29.113 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/manager] has finished in [18] ms
+17-Jun-2022 00:39:29.113 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/examples]
+17-Jun-2022 00:39:29.281 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/examples] has finished in [167] ms
+17-Jun-2022 00:39:29.281 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/ROOT]
+17-Jun-2022 00:39:29.547 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/ROOT] has finished in [266] ms
+17-Jun-2022 00:39:29.548 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/host-manager]
+17-Jun-2022 00:39:29.560 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/host-manager] has finished in [12] ms
+17-Jun-2022 00:39:29.564 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8091"]
+17-Jun-2022 00:39:29.569 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+17-Jun-2022 00:39:29.571 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [4,979] milliseconds
+17-Jun-2022 00:39:39.567 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/API-remote]
+17-Jun-2022 00:39:40.108 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/api-remote]
+17-Jun-2022 00:39:40.117 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/api-remote.war]
+17-Jun-2022 00:39:41.192 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jun-2022 00:39:41.197 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/api-remote.war] has finished in [1,080] ms
+17-Jun-2022 00:47:52.098 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/api-remote]
+17-Jun-2022 00:48:02.250 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/API-remote.war]
+17-Jun-2022 00:48:03.576 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jun-2022 00:48:03.582 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/API-remote.war] has finished in [1,334] ms
+17-Jun-2022 00:48:03.583 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/api-remote]
+17-Jun-2022 00:48:04.606 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jun-2022 00:48:04.613 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/api-remote] has finished in [1,030] ms
+log4j:WARN No appenders could be found for logger (com.cellulant.core.logging.Logger).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+00:48:12.530 [http-nio-8091-exec-17] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: ->
+00:48:12.857 [http-nio-8091-exec-17] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: Request performed successfully
+00:48:12.863 [http-nio-8091-exec-17] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: <-
+17-Jun-2022 00:48:14.626 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/api-remote]
+17-Jun-2022 00:48:21.619 INFO [Finalizer] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [ch.qos.logback.core.status.WarnStatus]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [ch.qos.logback.core.status.WarnStatus]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1385)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1373)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1226)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1188)
+		at ch.qos.logback.classic.LoggerContext.noAppenderDefinedWarning(LoggerContext.java:186)
+		at ch.qos.logback.classic.Logger.callAppenders(Logger.java:264)
+		at ch.qos.logback.classic.Logger.buildLoggingEventAndAppend(Logger.java:421)
+		at ch.qos.logback.classic.Logger.filterAndLog_0_Or3Plus(Logger.java:383)
+		at ch.qos.logback.classic.Logger.log(Logger.java:765)
+		at org.apache.commons.logging.LogAdapter$Slf4jLocationAwareLog.debug(LogAdapter.java:468)
+		at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:411)
+		at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.finalize(PoolingHttpClientConnectionManager.java:207)
+		at java.base/java.lang.System$2.invokeFinalize(System.java:2125)
+		at java.base/java.lang.ref.Finalizer.runFinalizer(Finalizer.java:87)
+		at java.base/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:171)
+17-Jun-2022 00:48:25.164 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/API-remote]
+17-Jun-2022 00:48:25.172 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/API-remote.war]
+17-Jun-2022 00:48:26.191 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jun-2022 00:48:26.200 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/API-remote.war] has finished in [1,028] ms
+17-Jun-2022 00:48:56.217 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/api-remote.war]
+17-Jun-2022 00:48:57.056 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jun-2022 00:48:57.060 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/api-remote.war] has finished in [843] ms
+log4j:WARN No appenders could be found for logger (com.cellulant.core.logging.Logger).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+17-Jun-2022 00:49:52.772 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+17-Jun-2022 00:49:52.773 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8091"]
+17-Jun-2022 00:49:52.782 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+17-Jun-2022 00:49:52.790 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-Jun-2022 00:49:52.845 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8091"]
+17-Jun-2022 00:49:52.846 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+17-Jun-2022 00:49:52.847 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8091"]
+17-Jun-2022 00:49:52.847 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Jun-2022 00:49:57.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.21
+17-Jun-2022 00:49:57.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 4 2019 20:19:36 UTC
+17-Jun-2022 00:49:57.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.21.0
+17-Jun-2022 00:49:57.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+17-Jun-2022 00:49:57.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            11.6.2
+17-Jun-2022 00:49:57.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+17-Jun-2022 00:49:57.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Applications/Android Studio.app/Contents/jre/Contents/Home
+17-Jun-2022 00:49:57.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.11+0-b60-7590822
+17-Jun-2022 00:49:57.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            JetBrains s.r.o.
+17-Jun-2022 00:49:57.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/rabiu/Desktop/apache-tomcat-9.0.21
+17-Jun-2022 00:49:57.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/rabiu/Desktop/apache-tomcat-9.0.21
+17-Jun-2022 00:49:57.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Jun-2022 00:49:57.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+17-Jun-2022 00:49:57.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Jun-2022 00:49:57.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/rabiu/Desktop/apache-tomcat-9.0.21/conf/logging.properties
+17-Jun-2022 00:49:57.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Jun-2022 00:49:57.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Jun-2022 00:49:57.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Jun-2022 00:49:57.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+17-Jun-2022 00:49:57.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Jun-2022 00:49:57.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/rabiu/Desktop/apache-tomcat-9.0.21
+17-Jun-2022 00:49:57.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/rabiu/Desktop/apache-tomcat-9.0.21
+17-Jun-2022 00:49:57.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/rabiu/Desktop/apache-tomcat-9.0.21/temp
+17-Jun-2022 00:49:57.502 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/rabiu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+17-Jun-2022 00:49:57.687 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8091"]
+17-Jun-2022 00:49:57.714 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Jun-2022 00:49:57.715 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [367] milliseconds
+17-Jun-2022 00:49:57.753 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Jun-2022 00:49:57.753 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.21]
+17-Jun-2022 00:49:57.766 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/api-remotes.war]
+17-Jun-2022 00:49:59.184 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jun-2022 00:49:59.224 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/api-remotes.war] has finished in [1,459] ms
+17-Jun-2022 00:49:59.226 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/api-remote.war]
+17-Jun-2022 00:50:00.223 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jun-2022 00:50:00.229 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/api-remote.war] has finished in [1,004] ms
+17-Jun-2022 00:50:00.230 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/api-remote-old.war]
+17-Jun-2022 00:50:00.407 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/api-remote-old.war] has finished in [177] ms
+17-Jun-2022 00:50:00.407 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/tomcat_remote_war]
+17-Jun-2022 00:50:00.777 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/tomcat_remote_war] has finished in [370] ms
+17-Jun-2022 00:50:00.777 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/API#remote]
+17-Jun-2022 00:50:01.001 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/API#remote] has finished in [223] ms
+17-Jun-2022 00:50:01.001 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/docs]
+17-Jun-2022 00:50:01.014 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/docs] has finished in [13] ms
+17-Jun-2022 00:50:01.014 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/manager]
+17-Jun-2022 00:50:01.037 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/manager] has finished in [23] ms
+17-Jun-2022 00:50:01.037 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/examples]
+17-Jun-2022 00:50:01.202 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/examples] has finished in [165] ms
+17-Jun-2022 00:50:01.203 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/ROOT]
+17-Jun-2022 00:50:01.428 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/ROOT] has finished in [226] ms
+17-Jun-2022 00:50:01.428 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/host-manager]
+17-Jun-2022 00:50:01.440 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/host-manager] has finished in [12] ms
+17-Jun-2022 00:50:01.444 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8091"]
+17-Jun-2022 00:50:01.449 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+17-Jun-2022 00:50:01.451 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3,735] milliseconds
+log4j:WARN No appenders could be found for logger (com.cellulant.core.logging.Logger).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+00:50:06.530 [http-nio-8091-exec-1] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: ->
+00:50:06.795 [http-nio-8091-exec-1] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: Request performed successfully
+00:50:06.803 [http-nio-8091-exec-1] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: <-
+00:50:08.241 [http-nio-8091-exec-3] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: ->
+00:50:08.246 [http-nio-8091-exec-3] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: Request performed successfully
+00:50:08.246 [http-nio-8091-exec-3] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: <-
+00:50:09.088 [http-nio-8091-exec-4] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: ->
+00:50:09.091 [http-nio-8091-exec-4] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: Request performed successfully
+00:50:09.092 [http-nio-8091-exec-4] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: <-
+00:50:09.951 [http-nio-8091-exec-5] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: ->
+00:50:09.954 [http-nio-8091-exec-5] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: Request performed successfully
+00:50:09.954 [http-nio-8091-exec-5] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: <-
+00:50:10.745 [http-nio-8091-exec-6] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: ->
+00:50:10.748 [http-nio-8091-exec-6] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: Request performed successfully
+00:50:10.748 [http-nio-8091-exec-6] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: <-
+00:50:11.594 [http-nio-8091-exec-7] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: ->
+00:50:11.597 [http-nio-8091-exec-7] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: Request performed successfully
+00:50:11.598 [http-nio-8091-exec-7] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: <-
+00:50:12.809 [http-nio-8091-exec-8] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: ->
+00:50:12.818 [http-nio-8091-exec-8] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: Request performed successfully
+00:50:12.818 [http-nio-8091-exec-8] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: <-
+00:50:37.156 [http-nio-8091-exec-2] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: ->
+00:50:37.167 [http-nio-8091-exec-2] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: Request performed successfully
+00:50:37.167 [http-nio-8091-exec-2] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: <-
+00:50:38.016 [http-nio-8091-exec-1] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: ->
+00:50:38.019 [http-nio-8091-exec-1] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: Request performed successfully
+00:50:38.020 [http-nio-8091-exec-1] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: <-
+00:50:38.570 [http-nio-8091-exec-3] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: ->
+00:50:38.573 [http-nio-8091-exec-3] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: Request performed successfully
+00:50:38.573 [http-nio-8091-exec-3] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: <-
+00:50:39.304 [http-nio-8091-exec-4] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: ->
+00:50:39.307 [http-nio-8091-exec-4] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: Request performed successfully
+00:50:39.308 [http-nio-8091-exec-4] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: <-
+00:50:40.215 [http-nio-8091-exec-5] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: ->
+00:50:40.217 [http-nio-8091-exec-5] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: Request performed successfully
+00:50:40.218 [http-nio-8091-exec-5] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: <-
+00:57:00.116 [http-nio-8091-exec-7] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: ->
+00:57:00.217 [http-nio-8091-exec-7] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: Request performed successfully
+00:57:00.220 [http-nio-8091-exec-7] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: <-
+00:57:01.219 [http-nio-8091-exec-9] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: ->
+00:57:01.223 [http-nio-8091-exec-9] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: Request performed successfully
+00:57:01.223 [http-nio-8091-exec-9] DEBUG org.apache.xmlrpc.server.XmlRpcStreamServer - execute: <-
+17-Jun-2022 00:57:22.320 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/api-remote]
+17-Jun-2022 00:57:22.403 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/api-remote-new.war]
+17-Jun-2022 00:57:22.993 INFO [Finalizer] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [ch.qos.logback.core.status.WarnStatus]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [ch.qos.logback.core.status.WarnStatus]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1385)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1373)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1226)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1188)
+		at ch.qos.logback.classic.LoggerContext.noAppenderDefinedWarning(LoggerContext.java:186)
+		at ch.qos.logback.classic.Logger.callAppenders(Logger.java:264)
+		at ch.qos.logback.classic.Logger.buildLoggingEventAndAppend(Logger.java:421)
+		at ch.qos.logback.classic.Logger.filterAndLog_0_Or3Plus(Logger.java:383)
+		at ch.qos.logback.classic.Logger.log(Logger.java:765)
+		at org.apache.commons.logging.LogAdapter$Slf4jLocationAwareLog.debug(LogAdapter.java:468)
+		at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:411)
+		at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.finalize(PoolingHttpClientConnectionManager.java:207)
+		at java.base/java.lang.System$2.invokeFinalize(System.java:2125)
+		at java.base/java.lang.ref.Finalizer.runFinalizer(Finalizer.java:87)
+		at java.base/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:171)
+17-Jun-2022 00:57:22.994 INFO [Finalizer] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.apache.http.impl.conn.PoolingHttpClientConnectionManager$2]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.apache.http.impl.conn.PoolingHttpClientConnectionManager$2]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1385)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1373)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1226)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1188)
+		at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:413)
+		at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.finalize(PoolingHttpClientConnectionManager.java:207)
+		at java.base/java.lang.System$2.invokeFinalize(System.java:2125)
+		at java.base/java.lang.ref.Finalizer.runFinalizer(Finalizer.java:87)
+		at java.base/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:171)
+17-Jun-2022 00:57:23.850 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jun-2022 00:57:23.873 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/api-remote-new.war] has finished in [1,470] ms
