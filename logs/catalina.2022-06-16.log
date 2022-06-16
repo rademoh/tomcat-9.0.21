@@ -1,0 +1,48 @@
+16-Jun-2022 05:46:49.631 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/API-remote.war]
+16-Jun-2022 05:46:54.647 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jun-2022 05:46:54.668 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/API-remote.war] has finished in [5,058] ms
+16-Jun-2022 05:47:14.686 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/api-remote.war]
+16-Jun-2022 05:47:16.127 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jun-2022 05:47:16.132 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/api-remote.war] has finished in [1,446] ms
+16-Jun-2022 05:51:56.777 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/API-remote]
+16-Jun-2022 05:51:57.344 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/api-remote]
+16-Jun-2022 05:52:07.359 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/API-remote.war]
+16-Jun-2022 05:52:08.413 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jun-2022 05:52:08.417 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/API-remote.war] has finished in [1,057] ms
+16-Jun-2022 05:52:18.423 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/api-remote.war]
+16-Jun-2022 05:52:19.225 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jun-2022 05:52:19.229 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/api-remote.war] has finished in [805] ms
+16-Jun-2022 05:59:09.935 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/API-remote]
+16-Jun-2022 05:59:10.507 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/api-remote]
+16-Jun-2022 05:59:20.553 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/API-remote.war]
+16-Jun-2022 05:59:21.716 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jun-2022 05:59:21.720 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/API-remote.war] has finished in [1,168] ms
+16-Jun-2022 05:59:21.721 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/api-remote]
+16-Jun-2022 05:59:22.637 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jun-2022 05:59:22.641 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/api-remote] has finished in [920] ms
+16-Jun-2022 05:59:32.645 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/api-remote]
+16-Jun-2022 05:59:43.164 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/API-remote]
+16-Jun-2022 05:59:43.177 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/API-remote.war]
+16-Jun-2022 05:59:43.665 INFO [Finalizer] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [ch.qos.logback.core.status.WarnStatus]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [ch.qos.logback.core.status.WarnStatus]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1385)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1373)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1226)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1188)
+		at ch.qos.logback.classic.LoggerContext.noAppenderDefinedWarning(LoggerContext.java:186)
+		at ch.qos.logback.classic.Logger.callAppenders(Logger.java:264)
+		at ch.qos.logback.classic.Logger.buildLoggingEventAndAppend(Logger.java:421)
+		at ch.qos.logback.classic.Logger.filterAndLog_0_Or3Plus(Logger.java:383)
+		at ch.qos.logback.classic.Logger.log(Logger.java:765)
+		at org.apache.commons.logging.LogAdapter$Slf4jLocationAwareLog.debug(LogAdapter.java:468)
+		at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:411)
+		at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.finalize(PoolingHttpClientConnectionManager.java:207)
+		at java.base/java.lang.System$2.invokeFinalize(System.java:2125)
+		at java.base/java.lang.ref.Finalizer.runFinalizer(Finalizer.java:87)
+		at java.base/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:171)
+16-Jun-2022 05:59:44.252 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jun-2022 05:59:44.256 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/API-remote.war] has finished in [1,079] ms
+16-Jun-2022 06:01:04.289 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/api-remote.war]
+16-Jun-2022 06:01:05.222 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jun-2022 06:01:05.227 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/rabiu/Desktop/apache-tomcat-9.0.21/webapps/api-remote.war] has finished in [939] ms
+16-Jun-2022 06:22:53.067 SEVERE [ajp-nio-8009-exec-28] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [20559]

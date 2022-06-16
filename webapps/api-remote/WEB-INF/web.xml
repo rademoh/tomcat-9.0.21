@@ -42,7 +42,6 @@
         <servlet-name>RemoteAPIServlet</servlet-name>
         <url-pattern>/xmlrpc/*</url-pattern>
         <url-pattern>/ke/xmlrpc/*</url-pattern>
-        <url-pattern>/ng/xmlrpc/*</url-pattern>
         <url-pattern>/zm/xmlrpc/*</url-pattern>
     </servlet-mapping>
 </web-app>
