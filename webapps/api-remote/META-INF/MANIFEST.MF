@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven 3.8.1
+Built-By: rabiu
+Build-Jdk: 11.0.12
+Class-Path: commons-httpclient-3.1.jar commons-logging-1.0.4.jar commons
+ -codec-1.2.jar javaee-web-api-7.0.jar javax.servlet-api-3.1.0.jar xmlrp
+ c-server-3.1.3.jar xmlrpc-common-3.1.3.jar ws-commons-util-1.0.2.jar xm
+ l-apis-1.0.b2.jar xmlrpc-client-3.1.3.jar gson-2.5.jar json-20201115.ja
+ r spring-template-1.1.0-20220524.110418-20.jar spring-web-5.2.7.RELEASE
+ .jar spring-beans-5.2.7.RELEASE.jar spring-core-5.2.7.RELEASE.jar sprin
+ g-jcl-5.2.7.RELEASE.jar spring-boot-starter-validation-2.3.1.RELEASE.ja
+ r spring-boot-starter-2.3.1.RELEASE.jar spring-boot-2.3.1.RELEASE.jar s
+ pring-boot-autoconfigure-2.3.1.RELEASE.jar spring-boot-starter-logging-
+ 2.3.1.RELEASE.jar logback-classic-1.2.3.jar logback-core-1.2.3.jar slf4
+ j-api-1.7.25.jar log4j-to-slf4j-2.13.3.jar log4j-api-2.13.3.jar jul-to-
+ slf4j-1.7.30.jar jakarta.annotation-api-1.3.5.jar snakeyaml-1.26.jar ja
+ karta.el-3.0.3.jar spring-context-5.2.7.RELEASE.jar spring-aop-5.2.7.RE
+ LEASE.jar spring-expression-5.2.7.RELEASE.jar httpclient-4.5.12.jar htt
+ pcore-4.4.13.jar validation-api-2.0.1.Final.jar hibernate-validator-6.1
+ .5.Final.jar jakarta.validation-api-2.0.2.jar jboss-logging-3.3.2.Final
+ .jar classmate-1.3.4.jar log4j-1.2.17.jar lombok-1.18.12.jar jackson-da
+ tabind-2.11.0.jar jackson-annotations-2.11.0.jar jackson-core-2.11.0.ja
+ r opentracing-api-0.33.0.jar opentracing-util-0.33.0.jar opentracing-no
+ op-0.33.0.jar log4j1-2.0.jar newrelic-api-5.6.0.jar spring-retry-1.2.5.
+ RELEASE.jar
+
